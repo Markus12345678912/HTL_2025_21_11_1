@@ -26,7 +26,8 @@ int main() {
 
     }
 
-    double pi_estimate = 4.0 * (double)inside_circle / (double)num_points; //double das Kommazahl ok ist   4mal weil Formel für Viertelkreis Bogen gilt nicht für ganzen Kreis
+    double pi_estimate = 4.0 * (double)inside_circle / (double)num_points; //double das Kommazahl ok ist   
+    //4mal weil Formel für Viertelkreis Bogen gilt nicht für ganzen Kreis
 
     printf("Geschätztes Pi: %f\n", pi_estimate);  // Ausgabe Pi %f für Komma
 
